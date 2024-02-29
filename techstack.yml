@@ -1,0 +1,51 @@
+repo_name: 2lambda123/FractionalNFT
+report_id: c0ac41dcaa6fb9f212263e6f05edb3e0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:16:39+00:00'
+requested_by: 2lambda123
+provider: github
+branch: factory
+detected_tools_count: 4
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/FractionalNFT
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/FractionalNFT/blob/factory/.github/workflows/test.yml
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: VitalR
+  last_updated_on: 2022-09-21 15:36:57.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/FractionalNFT
+  detection_source: Repo Metadata
+- name: solidity
+  description: How people build software
+  website_url: https://ethereum.github.io/solidity/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4959/1__IS8pZzkhvd6kUbSFpSgag.png
+  detection_source_url: https://github.com/2lambda123/FractionalNFT
+  detection_source: Repo Metadata
